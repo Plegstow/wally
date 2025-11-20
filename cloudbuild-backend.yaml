@@ -24,7 +24,7 @@ steps:
         "./launch",
         "--port=8000",
         "--update-env-vars",
-        "ROCKET_PORT=$PORT,ROCKET_ADDRESS=0.0.0.0,ROCKET_ENV=production",
+        "ROCKET_PORT=8000,ROCKET_ADDRESS=0.0.0.0,ROCKET_ENV=production",
         "--allow-unauthenticated",
       ]
 
